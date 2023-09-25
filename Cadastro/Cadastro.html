@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        form
+        {
+            font-weight:bold;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 14px;
+        }
+        div
+        {
+            background-color: antiquewhite;
+        }
+        .class_input_name
+        {
+            width: 300px;
+        }
+        .class_botao_enviar
+        {
+            width: 70px;
+            height: 25px;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 16px;
+            font-weight: bold;
+        }
+    </style>
+    <title>Cadastro</title>
+</head>
+<body>
+    <div>
+        <form action="https://formsubmit.co/gustavo.cdalbem@hotmail.com" method="post">
+            <fieldset>
+                <legend>Dados Pessoais</legend>
+                <label>Nome:</label>
+                <input type="text" name="Nome" placeholder="Nome Completo" class="class_input_name" required>
+                <br><br>
+                <label>CPF:</label>
+                <input type="text" name="CPF" placeholder="Digite o CPF" pattern="[0-9]{11}" required>
+                <label">Data de Nascimento:</label>
+                <input type="text" name="Nascimento" placeholder="DDMMAAAA" pattern="[0-9]{8}" required >
+                <label>Masculino</label>
+                <input type="radio" name="gênero" value="masculino">
+                <label>Feminino</label>
+                <input type="radio" name="gênero" value="feminino">
+                <br><br>
+                <label>Estado Civil:</label>
+                <select name="EstadoCivil">
+                    <option value="solteiro">Solteiro(a)</option>
+                    <option value="casado">Casado(a)</option>
+                    <option value="divorciado">Divorciado(a)</option>
+                    <option value="Outro">Outros</option>
+                </select>
+                <label>Renda Mensal(Opcional):</label>
+                <input type="text" name="rendamensal" placeholder="Digite a renda">
+            </fieldset>
+            <br>
+            <fieldset>
+                <legend>Endereço</legend>
+                <label>Logradouro:</label>
+                <input type="text" name="logradouro" placeholder="Digite a rua" required>
+                <label>Número:</label>
+                <input type="text" name="numero" placeholder="Número" required>
+                <label>Complemtento:</label>
+                <input type="text" name="complemento" placeholder="Apto, Bloco, Prédio">
+                <br><br>
+                <label>Estado:</label>
+                <select name="estados">
+                    <option value="AC">Acre</option>
+                    <option value="AL">Alagoas</option>
+                    <option value="AP">Amapá</option>
+                    <option value="AM">Amazonas</option>
+                    <option value="BA">Bahia</option>
+                    <option value="DF">Distrito Federal</option>
+                    <option value="GO">Goias</option>
+                    <option value="MA">Maranhão</option>
+                    <option value="MT">Mato Grosso</option>
+                    <option value="MS">Mato Grosso do Sul</option>
+                    <option value="MG">Minas Gerais</option>
+                    <option value="PA">Pará</option>
+                    <option value="PB">Paraíba</option>
+                    <option value="PR">Paraná</option>
+                    <option value="PE">Pernambuco</option>
+                    <option value="PI">Piauí</option>
+                    <option value="RR">Roraima</option>
+                    <option value="RO">Rondônia</option>
+                    <option value="RJ">Rio de Janeiro</option>
+                    <option value="RN">Rio Grande do Norte</option>
+                    <option value="RS">Rio Grande do Sul</option>
+                    <option value="SC">Santa Catarina</option>
+                    <option value="SP">São Paulo</option>
+                    <option value="SE">Sergie</option>
+                    <option value="TO">Tocantins</option>
+                </select>
+                <label>Cidade:</label>
+                <input type="text" name="cidade" placeholder="Informe a cidade" required>
+            </fieldset>
+            <Br>
+            <fieldset>
+                <legend>Dados do Pet</legend>
+                <label>Nome do Pet:</label>
+                <input type="text" name="nomedopet" placeholder="Nome do Pet" required>
+                <label>Raça</label>
+                <input type="text" name="Raça" placeholder="Informe a raça" required>
+                <label>Data de nascimento:</label>
+                <input type="text" name="nascimento" placeholder="DDMMAAAA" pattern="[0-9]{8}" required>
+                <label>Sexo:</label>
+                <select name="sexopet">
+                    <option value="pet_macho">Macho</option>
+                    <option value="pet_fêmea">Fêmea</option>
+                </select>
+            </fieldset>
+            <br>
+            <center>
+                <label>Enviar Dados</label>
+                <input class="class_botao_enviar" type="submit">
+            </center>
+        </form>
+    </div>
+</body>
+</html>

@@ -1,0 +1,365 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;700&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Nunito', sans-serif;
+    padding: 0;
+    margin: 0;
+    color: #575757;
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+h1,
+h2,
+h3 {
+    text-transform: uppercase;
+    font-weight: 400;
+}
+
+section {
+    padding: 100px 0;
+}
+
+.btn,
+a.btn:any-link {
+    display: inline-block;
+    padding: 10px 30px;
+    text-decoration: none;
+    border: 1px solid #555;
+    color: #555;
+    font-weight: 600;
+}
+
+.btn.btn-primary,
+a.btn.btn-primary {
+    background-color: #FFBE51;
+    border-color: #FFBE51;
+    color: #fff;
+}
+
+.align-row {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+header {
+    width: 100%;
+    background-color: #FFBE51;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header nav ul {
+    list-style: none;
+}
+
+header nav ul li {
+    display: inline-block;
+}
+
+header nav ul li a:any-link {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #fff;
+    display: inline-block;
+    padding: 10px;
+}
+
+section.banner p {
+    width: 500px;
+    max-width: 100%;
+    font-size: 40px;
+}
+
+section.banner img {
+    max-width: 100%;
+}
+
+section.servicos {
+    background-color: #E5E5E5;
+}
+
+section.servicos .container {
+    flex-direction: column;
+}
+
+section.servicos .items {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+section.servicos .items article {
+    width: 230px;
+    margin: 30px;
+}
+
+section.servicos .items article h3 {
+    text-transform: none;
+    margin-bottom: 0;
+    font-size: 20px;
+}
+
+section.servicos .items article h4 {
+    font-size: 16px;
+    font-weight: 300;
+    margin: 0;
+}
+
+section.servicos .items .thumb {
+    width: 100%;
+    height: 200px;
+    background-color: #fff;
+}
+
+section.sobre {
+    padding: 100px 0;
+}
+
+section.sobre .text {
+    padding: 50px;
+    width: 600px;
+    max-width: 100%;
+}
+
+section.sobre .text p {
+    font-weight: 300;
+}
+
+footer {
+    background-color: #FFBE51;
+    padding: 50px;
+}
+
+footer .info {
+    padding: 30px;
+}
+
+footer .logo-icon img {
+    width: 200px;
+}
+
+footer a:any-link,
+footer p {
+    color: #575757;
+}
+
+footer .mapa iframe {
+    width: 450px;
+    height: 200px;
+    max-width: 100%;
+}
+
+/* SOBRE */
+
+section.team .container {
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+section.servicos-lista .container {
+    flex-direction: column;
+}
+
+section.servicos-lista h1 {
+    color: #FFBE51;
+    font-size: 40px;
+    margin-bottom: 70px;
+}
+
+section.servicos-lista article {
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: flex-start;
+    padding: 50px;
+    width: 100%;
+    border-bottom: 1px solid #555;
+}
+
+section.servicos-lista article .thumb {
+    max-width: 100%;
+    width: 250px;
+    height: 250px;
+    background-color: #555;
+    margin: 0 30px 30px;
+}
+
+section.servicos-lista article .info {
+    padding: 0 30px;
+    width: 800px;
+    max-width: 100%;
+}
+
+section.servicos-lista article .info h2 {
+    margin-top: 0;
+}
+
+/* contato */
+
+section.contato .container {
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+section.contato h1 {
+    color: #FFBE51;
+    font-size: 40px;
+    margin-bottom: 70px;
+}
+
+.contato form input:not([type="radio"]):not([type="checkbox"]),
+.contato form textarea,
+.contato form select {
+    width: 100%;
+    padding: 5px;
+}
+
+.contato form input:not([type="radio"]):not([type="checkbox"]):focus,
+.contato form textarea:focus,
+.contato form select:focus {
+    outline-color: #00796B;
+}
+
+.contato form fieldset {
+    margin: 15px 0;
+    border-color: #fff;
+}
+
+.contato form textarea {
+    resize: none;
+    height: 300px;
+}
+
+.contato form label {
+    margin: 10px 0 5px;
+    display: inline-block;
+}
+
+.contato .info {
+    padding: 15px 30px;
+}
+
+.contato .info iframe {
+    max-width: 100%;
+    width: 700px;
+    height: 300px;
+}
+
+section.contato a:any-link,
+section.contato p {
+    color: #575757;
+}
+
+body,
+html {
+  font-size: 14px;
+  background: rgba(238, 238, 238, 1);
+}
+
+.background {
+  background: rgba(238, 238, 238, 1);
+}
+
+.container {
+  padding-top: auto;
+}
+
+.header {
+  display:flex;
+  width: 100%;
+  height: 69px;
+  padding: 20px 938px 20px 330px;
+  align-items: center;
+  background: #f9e6b3;
+}
+
+.header-title {
+  color: #175ea8;
+  text-align: center;
+  font-family: Chicle;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 19.2px; /* 53.333% */
+}
+
+.title {
+  color: #4a4a4a;
+  font-family: CircularXX;
+  font-size: 30.4px;
+  font-style: normal;
+  font-weight: 450;
+  line-height: 45.6px; /* 150% */
+}
+
+.form {
+  width: 80%;
+  border-radius: 8px;
+  background: #fff;
+  height: 580px;
+  margin-top: 20px;
+  margin-left: 300px;
+  margin-bottom: 20px;
+  padding: 100px 90px;
+}
+
+.field {
+  width: 100%;
+  gap: 1.86px;
+  margin-bottom: 15px;
+}
+
+.form-label {
+  color: #363636;
+  font-family: CircularXX;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 450;
+  line-height: 30px; /* 150% */
+}
+
+.form-control {
+  border-radius: 5px;
+  border: 1px solid #dbdbdb;
+  background: #fff;
+  box-shadow: 0px 1px 2px 1px rgba(10, 10, 10, 0.1) inset;
+}
+
+.form-title {
+  color: #175ea8;
+  font-family: CircularXX;
+  font-size: 35px;
+  font-style: normal;
+  font-weight: 450;
+  line-height: 45.6px; /* 150% */
+}
+
+.btn-cadastrar {
+  width: 100%;
+  margin-top: 20px;
+  padding: 6.29px 149.41px 8.1px 149.59px;
+  border-radius: 8px;
+  background: #25b456;
+  color: #fff;
+  text-align: center;
+  font-family: CircularXX;
+  font-size: 19.2px;
+  line-height: 28.8px; /* 150% */
+  border: 0px;
+}
