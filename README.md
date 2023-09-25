@@ -27,6 +27,6 @@ Clique em "Agendar" para confirmar a reserva.
 
 Contato e Suporte
 
-Se você tiver alguma dúvida ou precisar de assistência adicional, não hesite em entrar em contato conosco através do e-mail [contato@petshop.com] ou pelo telefone [(123) 456-7890]. Estamos à disposição para ajudar.
+Se você tiver alguma dúvida ou precisar de assistência adicional, não hesite em entrar em contato conosco através do e-mail [contato@petshopdh.com.br] ou pelo telefone [(51) 98080-8080]. Estamos à disposição para ajudar.
 
-Obrigado por escolher o PetShop Online. Esperamos que você e seus animais de estimação tenham uma experiência incrível em nosso site!
+Obrigado por escolher o PetShop DH. Esperamos que você e seus animais de estimação tenham uma experiência incrível em nosso site!
